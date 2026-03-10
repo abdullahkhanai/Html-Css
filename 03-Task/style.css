@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 50vh;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container .box {
+  border-radius: 10%;
+  width: 30%;
+  height: 70%;
+  border: 2px solid black;
+}

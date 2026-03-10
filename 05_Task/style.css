@@ -1,0 +1,515 @@
+* {
+    margin: 2px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family:
+        "Inter",
+        -apple-system,
+        sans-serif;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-color: #ffffff;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero,
+h1 {
+    font-size: 4.5rem;
+    color: #2c3333;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.email-form {
+    display: flex;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 100px;
+    padding: 8px;
+    width: 100%;
+    max-width: 550px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.email-form input {
+    flex: 1;
+    /* Takes up remaining space in the pill */
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    font-size: 1.1rem;
+    border-radius: 100px;
+}
+
+.email-form button {
+    background-color: #b2f0a3;
+    /* Light green from the image */
+    color: #1a4314;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 100px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.1s ease;
+}
+
+.main2 {
+    height: 60%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.box {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+}
+
+box,
+box1 {
+    height: 100px;
+    margin: 20px;
+    width: 20px;
+
+}
+
+#box1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+box,
+box2 {
+    height: 100px;
+    margin: 20px;
+    width: 20px;
+    /* border: 1px solid black; */
+}
+
+#box2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+box,
+box3 {
+    height: 100px;
+    margin: 20px;
+    width: 20px;
+    /* border: 1px solid black; */
+}
+
+#box3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+.main3 {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* pre{
+    width: 100%;
+    object-fit: cover;
+    text-overflow: clip;
+} */
+
+.bigbox {
+    margin-left: 2%;
+    padding: 20px;
+    height: 90%;
+    width: 50%;
+    border: 1px solid black;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    border-radius: 30px;
+}
+
+.bigbox1 {
+    padding-left: 20px;
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(245, 140, 157);
+}
+
+.bigboxtwo {
+    margin-left: 2%;
+    margin-right: 10px;
+    padding: 20px;
+    height: 90%;
+    width: 50%;
+    border: 1px solid black;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    border-radius: 30px;
+}
+
+.bigbox2 {
+    padding-left: 20px;
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(195, 195, 255);
+}
+
+.main4 {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigboxthree {
+    margin-left: 2%;
+    padding: 20px;
+    height: 90%;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.bigbox3 {
+    padding-left: 20px;
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 143);
+}
+
+.bigboxfour {
+    margin-left: 2%;
+    padding: 20px;
+    height: 90%;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.bigbox4 {
+    padding-left: 20px;
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.main5 {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.boxm {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    border-radius: 10%;
+    margin: 20px;
+    padding: 20px;
+}
+
+boxm,
+boxm1 {
+    height: 100px;
+    margin: 20px;
+    width: 20px;
+}
+
+#boxm1 {
+    padding-left: 20px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+box,
+boxm2 {
+    height: 100px;
+    margin: 20px;
+    width: 20px;
+    /* border: 1px solid black; */
+}
+
+#boxm2 {
+    padding-left: 20px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+box,
+boxm3 {
+    height: 100px;
+    margin: 20px;
+    width: 20px;
+    /* border: 1px solid black; */
+}
+
+#boxm3 {
+    padding-left: 20px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+box,
+boxm4 {
+    height: 100px;
+    margin: 20px;
+    width: 20px;
+    /* border: 1px solid black; */
+}
+
+#boxm4 {
+    padding-left: 20px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.smallm1 {
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(174, 238, 202);
+}
+
+.smallm2 {
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(169, 197, 250);
+}
+
+.smallm3 {
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(250, 171, 143);
+}
+
+.smallm4 {
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(116, 155, 168);
+}
+
+.main6 {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+#hero2 {
+    margin: 20px;
+
+    height: 20%;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.15fr;
+    gap: 16px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.3;
+}
+
+.card-arrow {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-description {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.card-image {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 80px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Card 1 - Free Marketing Tools */
+.card-1 {
+    background: #e8d5f2;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* Card 2 - Social Media Glossary */
+.card-2 {
+    background: #c5e8e8;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* Card 3 - Social Media Marketing 101 */
+.card-3 {
+    background: #f5d5c5;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+/* Card 4 - Best Time to Post */
+.card-4 {
+    background: #f0e8f5;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* Card 5 - Social Media Resources */
+.card-5 {
+    background: #f5e8c5;
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+
+/* Placeholder styling for demo */
+.placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 12px;
+    background: linear-gradient(135deg, #fff 0%, #f8f8f8 100%);
+}
+
+.card-5 .card-image {
+    flex: 1;
+}
